@@ -23,3 +23,65 @@
   src: url('./fonts/roboto-v51-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
+body{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: #212121;
+}
+.wrapper{
+    max-width: 1060px;
+    margin: 0 auto;
+    padding: 11px;
+}
+.header__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.search__container{
+   display: flex;
+   align-items: center;
+   justify-content: center; 
+}
+.search__box{
+    display: flex;
+    align-items: center;
+    padding: 13px;
+    border: solid 1px #D9D9D9;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 300px;
+}
+.search-btn{
+    display: flex;
+    align-items: center;
+    padding: 13px;
+    border: solid 1px #D9D9D9;
+    width: 300px;
+}
+.search-input{
+    flex: 1;
+    border: none;
+    outline: none;
+}
+.input-adress{
+    flex: 1;
+    border: none;
+    outline: none;
+    color:black;
+}
+
+.search-btn_icon{
+    display: flex;
+    align-items: center;
+    padding: 13px;
+    border: solid 1px #D9D9D9;
+    background-color: #F65858;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
