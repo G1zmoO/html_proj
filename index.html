@@ -3,59 +3,79 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MeetUp</title>
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Meetup Events App</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/header.css" />
   </head>
   <body>
-    <header class="header">
-      <div class="wrapper">
-        <div class="header__wrapper">
-          <div class="header__logo">
-            <a href="/" class="header__logo-link">
+    <div class="page">
+      <header class="header">
+        <div class="header__container">
+          <a class="header__logo" href="./img/svg/header/logo.svg">
+            <img
+              class="header__logo-img"
+              src="./img/svg/header/logo.svg"
+              alt="Meetup logo"
+            />
+          </a>
+
+          <form class="header__search">
+            <label class="header__search-field">
               <img
-                src="./img/svg/logo.svg"
-                alt="Logo"
-                class="header__logo-pic"
+                class="header__search-icon"
+                src="./img/svg/header/searchB.svg"
+                alt="search"
               />
-            </a>
-          </div>
-          <form>
-            <div class="search__container">
-              <div class="search__box">
-                <img
-                  src="./icons/search.svg"
-                  alt="search"
-                  class="search-icon"
-                />
-                <input
-                  class="search-input"
-                  type="search"
-                  placeholder="Search Events"
-                />
-              </div>
-              <div class="search-btn">
-                <input
-                  type=""
-                  class="input-adress"
-                  placeholder=""
-                  value="Mountain View, CA"
-                />
-              </div>
-              <div class="search-btn_icon">
-                <button type="submit">
-                  <img src="./icons/search-white.svg" alt="Search button" />
-                </button>
-              </div>
-            </div>
+              <input
+                class="header__search-input"
+                type="text"
+                placeholder="Search events"
+              />
+            </label>
+
+            <label class="header__location-field">
+              <input
+                class="header__location-input"
+                type="text"
+                value="Mountain View, CA"
+              />
+            </label>
+
+            <button class="header__search-button" type="submit">
+              <img
+                class="header__search-button-icon"
+                src="./img/svg/header/searchW.svg"
+                alt=""
+              />
+            </button>
           </form>
-          <div class="header__buttons">
-            <button>English</button>
-            <button>LogIn</button>
-            <button>sign up</button>
+
+          <div class="header__actions">
+            <button class="header__language" type="button">
+              <img
+                class="header__earth-icon"
+                src="./img/svg/header/earth.svg"
+                alt="language"
+              />
+              <span>English</span>
+            </button>
+
+            <a class="header__login" href="#"> Log in </a>
+
+            <a class="header__signup" href="#"> Sign up </a>
           </div>
         </div>
-      </div>
-    </header>
+      </header>
+    </div>
+
+    <script type="module" src="./js/index.js"></script>
   </body>
 </html>

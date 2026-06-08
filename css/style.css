@@ -1,87 +1,45 @@
-/* roboto-regular - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  src: url('./fonts/roboto-v51-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-/* roboto-700 - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  src: url('./fonts/roboto-v51-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-/* roboto-900 - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 900;
-  src: url('./fonts/roboto-v51-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+/* General styles */
+
+
+:root {
+  --color-dark: #212121;
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-gray: #707070;
+  --color-border: #d9d9d9;
+  --color-primary: #00798a;
+  --color-accent: #f65858;
+  --color-light-bg: #f6f7f8;
+  --color-location-bg: rgba(151, 202, 209, 0.12);
+
+  --font-main: "Roboto", Arial, sans-serif;
+
+  --container-width: 1196px;
+  --page-width: 1512px;
+  --radius-small: 8px;
 }
 
-body{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-size: 16px;
-    line-height: 1.2;
-    font-weight: normal;
-    color: #212121;
-}
-.wrapper{
-    max-width: 1060px;
-    margin: 0 auto;
-    padding: 11px;
-}
-.header__wrapper{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+* {
+  box-sizing: border-box;
 }
 
-.search__container{
-   display: flex;
-   align-items: center;
-   justify-content: center; 
-}
-.search__box{
-    display: flex;
-    align-items: center;
-    padding: 13px;
-    border: solid 1px #D9D9D9;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    width: 300px;
-}
-.search-btn{
-    display: flex;
-    align-items: center;
-    padding: 13px;
-    border: solid 1px #D9D9D9;
-    width: 300px;
-}
-.search-input{
-    flex: 1;
-    border: none;
-    outline: none;
-}
-.input-adress{
-    flex: 1;
-    border: none;
-    outline: none;
-    color:black;
+html {
+  font-size: 16px;
 }
 
-.search-btn_icon{
-    display: flex;
-    align-items: center;
-    padding: 13px;
-    border: solid 1px #D9D9D9;
-    background-color: #F65858;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
+body {
+  margin: 0;
+  font-family: var(--font-main);
+  color: var(--color-dark);
+  background-color: var(--color-white);
 }
 
+.page {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--color-white);
+}
+
+.main {
+  width: 100%;
+}
