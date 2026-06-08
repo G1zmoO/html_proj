@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Meetup Events App</title>
+    <title>Meetup</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,6 +14,7 @@
     />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/bikes.css" />
   </head>
   <body>
     <div class="page">
@@ -28,7 +29,7 @@
           </a>
 
           <form class="header__search">
-            <label class="header__search-field">
+            <label class="header__search-bar">
               <img
                 class="header__search-icon"
                 src="./img/svg/header/searchB.svg"
@@ -41,7 +42,7 @@
               />
             </label>
 
-            <label class="header__location-field">
+            <label class="header__location-bar">
               <input
                 class="header__location-input"
                 type="text"
@@ -53,12 +54,12 @@
               <img
                 class="header__search-button-icon"
                 src="./img/svg/header/searchW.svg"
-                alt=""
+                alt="search"
               />
             </button>
           </form>
 
-          <div class="header__actions">
+          <div class="header__btns">
             <button class="header__language" type="button">
               <img
                 class="header__earth-icon"
@@ -73,7 +74,33 @@
             <a class="header__signup" href="#"> Sign up </a>
           </div>
         </div>
+
       </header>
+      <section class="bike">
+          <div class="bike__container">
+            <div class="bike__content">
+              <h1 class="bike__title">
+                The people platform—Where interests become friendships
+              </h1>
+
+              <p class="bike__text">
+                Whatever your interest, from hiking and reading to networking
+                and skill sharing, there are thousands of people who share it on
+                Meetup. Events are happening every day—sign up to join the fun.
+              </p>
+
+              <a class="bike__button" href="#"> Join Meetup </a>
+            </div>
+
+            <div class="bike__image-box">
+              <img
+                class="bike__image"
+                src="./img/bikes.svg"
+                alt="Bike"
+              />
+            </div>
+          </div>
+        </section>
     </div>
 
     <script type="module" src="./js/index.js"></script>

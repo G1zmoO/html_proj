@@ -1,0 +1,73 @@
+.bike {
+  width: 100%;
+  padding: 98px 0 96px;
+  background-color: var(--color-white);
+}
+
+.bike__container {
+  width: 100%;
+  max-width: var(--container-width);
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 96px;
+}
+
+.bike__content {
+  width: 100%;
+  max-width: 608px;
+}
+
+.bike__title {
+  margin: 0 0 24px;
+
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 52px;
+  color: var(--color-dark);
+}
+
+.bike__text {
+  margin: 0 0 24px;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--color-dark);
+}
+
+.bike__button {
+  width: 125px;
+  height: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: var(--radius-small);
+  background-color: var(--color-primary);
+  color: var(--color-white);
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.bike__image-box {
+  width: 379px;
+  height: 269px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.bike__image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
