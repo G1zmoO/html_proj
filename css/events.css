@@ -205,3 +205,111 @@
     background-position: center;
 }
 
+/* JOINMEETUP */
+.join-meetup {
+    background-color: rgba(151, 202, 209, 0.08);
+    margin: 60px auto;
+    border-radius: 8px;
+    max-width: 1200px;
+    padding: 0 15px;
+}
+
+.join-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 36px 56px;
+}
+
+.join-content {
+    max-width: 739px;
+}
+
+.join-title {
+    font-size: 28px;
+    font-weight: 600;
+    color: #212121;
+    margin-bottom: 16px;
+}
+
+.join-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #212121;
+    max-width: 665px;
+    margin-bottom: 16px;
+}
+
+.join-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 192px;
+    height: 40px;
+    background-color: #e32359;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.join-img {
+    width: 236px;
+    height: auto;
+    flex-shrink: 0;
+    object-fit: contain;
+}
+
+/* CATEGORY */
+.categories {
+    padding: 64px 0 0 0;
+}
+
+.categories-title {
+    font-size: 28px;
+    font-weight: 600;
+    color: #212121;
+    margin-bottom: 28px;
+}
+
+.categories-grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 16px;
+}
+
+.category-card {
+    width: 135px;
+    height: 112px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(151, 202, 209, 0.08);
+    border-radius: 8px;
+    border: none;
+    text-decoration: none;
+    color: #212121;
+    transition: background-color 0.3s;
+}
+
+.category-card:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.category-icon {
+    width: 20px;
+    height: 20px;
+    margin-top: 22px;
+    margin-bottom: 6px;
+}
+
+.category-text {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    padding: 0 10px;
+}
+
