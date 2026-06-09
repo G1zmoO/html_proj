@@ -1,0 +1,101 @@
+.footer {
+    background-color: var(--color-dark);
+    color: var(--color-light);
+    padding-top: 34px;
+    padding-bottom: 30px;
+}
+
+.footer-top {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 35px;
+}
+
+.create-text {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.get-started-btn {
+    width: 120px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--color-light);
+    border-radius: 6px;
+    color: var(--color-light);
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.footer-line {
+    border: none;
+    border-top: 1px solid #707070;
+    margin-bottom: 50px;
+}
+
+.footer-columns {
+    display: flex;
+    gap: 270px;
+    margin-bottom: 50px;
+}
+
+.col-title {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.footer-col a {
+    display: block;
+    color: #c5c4c4;
+    text-decoration: none;
+    margin-bottom: 7px;
+    font-size: 14px;
+}
+
+.footer-social-row {
+    margin-bottom: 30px;
+}
+
+.social-title {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.social-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.social-icons {
+    display: flex;
+    gap: 32px;
+}
+
+.social-icons img {
+    width: 30px;
+}
+
+.store-links {
+    display: flex;
+    gap: 22px;
+    margin-left: 550px;
+}
+
+.footer-bottom {
+    display: flex;
+    gap: 24px;
+    font-size: 14px;
+    color: #c5c4c4;
+    padding-top: 24px;
+}
+
+.footer-bottom a {
+    color: #c5c4c4;
+    text-decoration: none;
+}
