@@ -7,7 +7,7 @@
 
 .header__container {
   width: 100%;
-  max-width: var(--page-width);
+  max-width: 1512px;
   min-height: 64px;
   margin: 0 auto;
   padding: 0 24px;
@@ -50,13 +50,13 @@
   display: flex;
   align-items: center;
 
-  border: 1px solid var(--color-border);
+  border: 1px solid #d9d9d9;
   background-color: var(--color-white);
 }
 
 .header__search-bar {
   width: 300px;
-  border-radius: var(--radius-small) 0 0 var(--radius-small);
+  border-radius: 8px 0 0 8px;
 }
 
 .header__location-bar {
@@ -100,7 +100,7 @@
   padding: 0;
 
   border: none;
-  border-radius: 0 var(--radius-small) var(--radius-small) 0;
+  border-radius: 0 8px 8px 0;
 
   display: flex;
   align-items: center;
@@ -162,7 +162,7 @@
 .header__signup {
   padding: 8px 16px;
 
-  border-radius: var(--radius-small);
+  border-radius: 8px;
   background-color: var(--color-blue);
   color: var(--color-white);
 }
