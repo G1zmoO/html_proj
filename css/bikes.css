@@ -6,7 +6,7 @@
 
 .bike__container {
   width: 100%;
-  max-width: var(--container-width);
+  max-width: 1196px;
   margin: 0 auto;
 
   display: flex;

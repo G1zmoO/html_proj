@@ -1,25 +1,20 @@
 /* General styles */
 
 :root {
-  --font-main: "Roboto", Arial, sans-serif;
-  --container-width: 1196px;
-  --page-width: 1512px;
-  --radius-small: 8px;
   --color-blue: #00798a;
   --color-white: #ffffff;
-  --color-border: #d9d9d9;
   --color-dark: #212121;
-  --color-light-bg: #f6f7f8;
+  --color-light: #f6f7f8;
   --color-red: #f65858;
-  --color-black: #000000;
   --color-gray: #707070;
   --color-location-bg: rgba(151, 202, 209, 0.12);
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
 }
 
 html {
@@ -28,7 +23,7 @@ html {
 
 body {
   margin: 0;
-  font-family: var(--font-main);
+  font-family: "Roboto", Arial, sans-serif;
   color: var(--color-dark);
   background-color: var(--color-white);
 }
