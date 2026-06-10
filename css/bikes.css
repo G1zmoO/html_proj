@@ -47,7 +47,7 @@
   justify-content: center;
 
   border-radius: var(--radius-small);
-  background-color: var(--color-primary);
+  background-color: var(--color-blue);
   color: var(--color-white);
 
   font-size: 16px;
@@ -93,9 +93,62 @@
     line-height: 40px;
   }
 
+  .bike__text {
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .bike__button {
+    display: none;
+  }
+
   .bike__image-box {
     width: 100%;
     max-width: 379px;
     margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .bike {
+    padding: 40px 16px;
+  }
+
+  .bike__container {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .bike__content {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .bike__title {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 16px;
+  }
+
+  .bike__text {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 16px;
+  }
+
+  .bike__button {
+    display: none;
+  }
+
+  .bike__image-box {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .bike__image {
+    width: 100%;
+    height: auto;
   }
 }
