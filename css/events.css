@@ -469,3 +469,435 @@
     text-decoration: none;
     margin-top: auto;
 }
+
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+    .events {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+
+    .events-header {
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 24px;
+        gap: 12px;
+    }
+
+    .events-main-title {
+        font-size: 22px;
+        line-height: 28px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .events-location-wrapper {
+        width: auto;
+        max-width: none;
+        height: 36px;
+        font-size: 14px;
+    }
+
+    .events-location {
+        font-size: 14px;
+    }
+
+    .events-see-all {
+        font-size: 14px;
+    }
+
+    .events-near-grid,
+    .online-events-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .event-card {
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+        align-items: flex-start;
+    }
+
+    .event-card-media {
+        width: 120px;
+        height: 120px;
+        flex-shrink: 0;
+        margin-bottom: 0;
+        border-radius: 6px;
+    }
+
+    .event-card-info {
+        flex: 1;
+        min-width: 0;
+    }
+
+    .event-card-title {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 6px;
+        -webkit-line-clamp: 2;
+    }
+
+    .event-card-category {
+        font-size: 13px;
+        margin-bottom: 6px;
+    }
+
+    .event-card-date {
+        font-size: 12px;
+    }
+
+    .event-meta-row {
+        font-size: 13px;
+    }
+
+    .upcoming-events {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .upcoming-events .events-header {
+        margin-bottom: 20px;
+    }
+
+    .categories-grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 12px;
+    }
+
+    .category-card {
+        width: auto;
+        height: 100px;
+    }
+
+    .category-icon {
+        margin-top: 16px;
+        margin-bottom: 4px;
+    }
+
+    .category-text {
+        font-size: 13px;
+    }
+
+    .cities-grid {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .city-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .city-img {
+        width: 160px;
+        height: 160px;
+        margin-bottom: 16px;
+    }
+
+    .city-name {
+        font-size: 18px;
+    }
+
+    .works-grid {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .work-card {
+        width: 100%;
+        height: auto;
+        padding: 24px;
+    }
+
+    .work-card-title {
+        font-size: 18px;
+    }
+
+    .work-text {
+        font-size: 14px;
+    }
+
+    .friendships-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .friend-img {
+        width: 100%;
+        height: 200px;
+        margin-bottom: 16px;
+    }
+
+    .join-meetup {
+        margin: 40px auto;
+        padding: 0 15px;
+    }
+
+    .join-wrapper {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 32px 24px;
+        gap: 24px;
+    }
+
+    .join-content {
+        max-width: 100%;
+    }
+
+    .join-title {
+        font-size: 24px;
+        margin-bottom: 0;
+    }
+
+    .join-text {
+        font-size: 15px;
+        margin-bottom: 0;
+        max-width: 100%;
+    }
+
+    .join-btn {
+        width: 100%;
+        max-width: 300px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .join-img {
+        width: 100%;
+        max-width: 220px;
+        order: -1;
+    }
+}
+
+@media (max-width: 480px) {
+    .events {
+        padding-top: 40px;
+        padding-bottom: 24px;
+    }
+
+    .events-header {
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 20px;
+        gap: 8px;
+    }
+
+    .events-main-title {
+        font-size: 18px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    .events-location-wrapper {
+        width: auto;
+        height: 32px;
+        padding: 6px 8px;
+    }
+
+    .events-location {
+        font-size: 13px;
+    }
+
+    .events-see-all {
+        display: none;
+    }
+
+    .events-near-grid,
+    .online-events-grid {
+        gap: 16px;
+    }
+
+    .event-card {
+        gap: 10px;
+    }
+
+    .event-card-media {
+        width: 100px;
+        height: 100px;
+        border-radius: 5px;
+    }
+
+    .event-card-title {
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 4px;
+    }
+
+    .event-card-category {
+        font-size: 12px;
+        margin-bottom: 4px;
+    }
+
+    .event-card-date-row {
+        margin-bottom: 8px;
+    }
+
+    .event-card-date {
+        font-size: 11px;
+    }
+
+    .event-meta-row {
+        font-size: 12px;
+    }
+
+    .online-badge {
+        width: 90px;
+        height: 18px;
+        font-size: 10px;
+        top: 8px;
+        left: 8px;
+    }
+
+    .upcoming-events {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .upcoming-events .events-header {
+        margin-bottom: 16px;
+    }
+
+    .categories-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .category-card {
+        height: 90px;
+    }
+
+    .category-icon {
+        width: 16px;
+        height: 16px;
+        margin-top: 12px;
+        margin-bottom: 4px;
+    }
+
+    .category-text {
+        font-size: 11px;
+    }
+
+    .cities-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .city-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .city-img {
+        width: 140px;
+        height: 140px;
+        margin-bottom: 12px;
+    }
+
+    .city-name {
+        font-size: 16px;
+    }
+
+    .works-grid {
+        gap: 16px;
+    }
+
+    .work-card {
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .work-card-title {
+        font-size: 16px;
+    }
+
+    .work-text {
+        font-size: 13px;
+    }
+
+    .work-link {
+        font-size: 13px;
+    }
+
+    .friendships {
+        padding: 40px 0 30px 0;
+    }
+
+    .friendships-title {
+        font-size: 20px;
+    }
+
+    .friendships-subtitle {
+        font-size: 14px;
+    }
+
+    .friend-img {
+        height: 180px;
+        margin-bottom: 12px;
+    }
+
+    .friend-card-title {
+        font-size: 16px;
+    }
+
+    .friend-card-text {
+        font-size: 14px;
+    }
+
+    .join-meetup {
+        margin: 40px auto;
+        padding: 0 12px;
+    }
+
+    .join-wrapper {
+        padding: 24px;
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .join-content {
+        max-width: 100%;
+        order: -1;
+    }
+
+    .join-title {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .join-text {
+        font-size: 14px;
+        margin-bottom: 20px;
+        max-width: 100%;
+    }
+
+    .join-btn {
+        width: 100%;
+        height: 36px;
+        font-size: 14px;
+    }
+
+    .join-img {
+        width: 100%;
+        max-width: 200px;
+        order: -2;
+        margin-bottom: 10px;
+    }
+}
+
