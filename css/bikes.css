@@ -71,3 +71,31 @@
   height: auto;
   display: block;
 }
+
+/* ADAPT */
+@media (max-width: 768px) {
+  .bike {
+    padding: 48px 24px;
+  }
+
+  .bike__container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+  }
+
+  .bike__content {
+    max-width: 100%;
+  }
+
+  .bike__title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .bike__image-box {
+    width: 100%;
+    max-width: 379px;
+    margin: 0 auto;
+  }
+}

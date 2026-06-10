@@ -167,3 +167,25 @@
   color: var(--color-white);
 }
 
+/* ADAPT */
+
+
+@media (max-width: 768px) {
+  .header__container {
+    flex-wrap: wrap;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .header__search {
+    order: 3;
+    max-width: none;
+    width: 100%;
+  }
+
+  .header__search-field,
+  .header__location-field {
+    flex: 1;
+    width: auto;
+  }
+}
