@@ -8,6 +8,10 @@
   --color-red: #f65858;
   --color-gray: #707070;
   --color-location-bg: rgba(151, 202, 209, 0.12);
+
+  --container-width: 1196px;
+  --page-width: 1512px;
+  --radius-small: 8px;
 }
 
 .container {
