@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const eventsContainer = document.getElementById('eventsContainer');
     const dropdownContainer = document.getElementById('dropdownContainer');
 
-    // Find all filter btns
+    //all filter btns
     const filterDate = document.getElementById('filterDate');
     const filterType = document.getElementById('filterType');
     const filterDistance = document.getElementById('filterDistance');
